@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MiniMove.Data;
 
 namespace MiniMove
 {
@@ -25,8 +26,10 @@ namespace MiniMove
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            //services.AddDbContext<Context>(options =>
-           //options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+
+            services.AddRazorPages();
+            services.AddDbContext<MiniMoveContext>(options =>
+           options.UseSqlServer(Configuration.GetConnectionString("MiniMoveContextConnection")));
         }
 
 
@@ -50,6 +53,8 @@ namespace MiniMove
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -57,6 +62,7 @@ namespace MiniMove
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

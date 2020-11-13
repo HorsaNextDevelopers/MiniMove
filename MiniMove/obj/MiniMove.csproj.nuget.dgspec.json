@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tudor.busuioc\\Desktop\\MiniMove-Fork\\MiniMove\\MiniMove\\MiniMove.csproj": {}
+    "C:\\Users\\camilla.franceschini\\Documents\\MiniMove\\MiniMove\\MiniMove.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tudor.busuioc\\Desktop\\MiniMove-Fork\\MiniMove\\MiniMove\\MiniMove.csproj": {
+    "C:\\Users\\camilla.franceschini\\Documents\\MiniMove\\MiniMove\\MiniMove.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tudor.busuioc\\Desktop\\MiniMove-Fork\\MiniMove\\MiniMove\\MiniMove.csproj",
+        "projectUniqueName": "C:\\Users\\camilla.franceschini\\Documents\\MiniMove\\MiniMove\\MiniMove.csproj",
         "projectName": "MiniMove",
-        "projectPath": "C:\\Users\\tudor.busuioc\\Desktop\\MiniMove-Fork\\MiniMove\\MiniMove\\MiniMove.csproj",
-        "packagesPath": "C:\\Users\\tudor.busuioc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tudor.busuioc\\Desktop\\MiniMove-Fork\\MiniMove\\MiniMove\\obj\\",
+        "projectPath": "C:\\Users\\camilla.franceschini\\Documents\\MiniMove\\MiniMove\\MiniMove.csproj",
+        "packagesPath": "C:\\Users\\camilla.franceschini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\camilla.franceschini\\Documents\\MiniMove\\MiniMove\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tudor.busuioc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\camilla.franceschini\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,43 +38,27 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Chart.js": {
-              "target": "Package",
-              "version": "[2.9.3, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[3.1.9, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[3.1.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[3.1.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[3.1.9, )"
             },
-            "Microsoft.Extensions.Identity.Core": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
